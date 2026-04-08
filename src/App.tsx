@@ -144,13 +144,14 @@ export default function App() {
               </div>
 
               <div className="flex flex-wrap gap-4">
-                <motion.button 
+                <motion.a 
+                  href="#projects"
                   whileHover={{ scale: 1.05, y: -2 }}
                   whileTap={{ scale: 0.95 }}
-                  className="btn-primary"
+                  className="btn-primary inline-flex items-center justify-center cursor-pointer"
                 >
                   View Projects
-                </motion.button>
+                </motion.a>
                 <motion.button 
                   whileHover={{ scale: 1.05, y: -2 }}
                   whileTap={{ scale: 0.95 }}
